@@ -1,0 +1,2 @@
+boolean: boolan keyword is used declare Boolean value in java which can hold true or false values. true or false values take 1bit space in memory.
+int: int keyword in used declare a integer value in java. memory space for int 32bits.
