@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 //2D Arrays
 //create an array with three students four subject marks
-public class Main1 {
+public class Array_2D {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         double[][] marks = new double[3][4];

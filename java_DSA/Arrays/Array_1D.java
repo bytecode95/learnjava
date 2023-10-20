@@ -2,7 +2,7 @@ package Arrays;
 import java.util.Scanner;
 import java.util.Arrays;
 //1_D Array
-public class Main {
+public class Array_1D{
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         double[] marks = new double[6];
