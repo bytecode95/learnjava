@@ -1,5 +1,5 @@
 //Three Varbles in java 1. local variables 2. instance variables 3. Static variables
-public class Main 
+public class Variables 
 {  
     static int m=100;//static variable  
     void method()  

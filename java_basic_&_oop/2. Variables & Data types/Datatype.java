@@ -3,7 +3,7 @@
 //string is not a primitve data type
 
 
-public class Main2 {
+public class Datatype {
     public static void main(String[] args){
         int a = 10;
         long l = 29785647324l;
