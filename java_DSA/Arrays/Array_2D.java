@@ -13,7 +13,7 @@ public class Array_2D {
                 marks[i][j] = sc.nextDouble();
             }
         }
-        System.out.println(Arrays.toString(marks));
+        System.out.println(Arrays.deepToString(marks));
         sc.close();
     }
 }
