@@ -22,10 +22,6 @@ public class Datatype {
         System.out.println(ch);
         System.out.println(d);
         System.out.println(s);
-        System.out.println(value);
-
-
-
-        
+        System.out.println(value);      
     }
 }
