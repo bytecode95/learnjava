@@ -19,6 +19,7 @@ public class Basic {
             students[i].mark = sc.nextDouble();
 
         }
+        sc.close();
 
 
 
