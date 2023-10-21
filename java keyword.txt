@@ -1,2 +1,3 @@
 boolean: boolan keyword is used declare Boolean value in java which can hold true or false values. true or false values take 1bit space in memory.
 int: int keyword in used declare a integer value in java. memory space for int 32bits.
+static: if static keyword is used beofore declreing a varible is known as static varible. static variable cant be local. can create a single copy of static varible and share amog all instances of class. Memory allocation is only happens once when class is loaded.
