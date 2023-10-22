@@ -32,7 +32,7 @@ class Vehicle{
 	//attributes
 	//static keyword usage
 	String brandName;
-	static int yearofManufacturing;
+	int yearofManufacturing;
 	String transmission;
 	boolean isairbagavaiable;
 	
