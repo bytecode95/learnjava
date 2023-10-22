@@ -24,11 +24,23 @@ class Vehicle{
     //instance block -- default values wiil be assigned to instance varibles - block will be copy contructor at the first
 
     {
+        System.out.println("Hi i am instance block");
         brandName = null;
         transmission= null;
         isairbagavaiable = false;
     }
 
+    //static block - default values for static varibles
+    //only once static varibles assigned once object creation.
+    //  //can create a single copy of the static variable and share it among all the instances of the class. 
+    //  Memory allocation for static variables happens only once when the class is loaded in the memory.
+    
+    static{
+        System.out.println("Hi i am static block");
+
+    }
+
+    //constructors are calling everytime when object cretion
 	public Vehicle(){
 		System.out.println("Now Vehicle Object is creating  - default constructor");
 	}
