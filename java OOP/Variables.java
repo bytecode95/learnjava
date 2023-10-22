@@ -21,7 +21,7 @@ class Vehicle{
 	String transmission;
 	boolean isairbagavaiable;
 
-    //instance block -- default values wiil be assigned to instance varibles
+    //instance block -- default values wiil be assigned to instance varibles - block will be copy contructor at the first
 
     {
         brandName = null;
