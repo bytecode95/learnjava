@@ -21,6 +21,14 @@ class Vehicle{
 	String transmission;
 	boolean isairbagavaiable;
 
+    //instance block -- default values wiil be assigned to instance varibles
+
+    {
+        brandName = null;
+        transmission= null;
+        isairbagavaiable = false;
+    }
+
 	public Vehicle(){
 		System.out.println("Now Vehicle Object is creating  - default constructor");
 	}
