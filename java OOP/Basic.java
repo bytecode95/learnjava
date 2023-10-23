@@ -1,3 +1,6 @@
+//objects - it is a real time entity which has state and behaviors. aprt from that unique id- unique id is not for external users. it is for JVM in order to identify an unique object
+// class - it is logical entity. which is blueprint or template of an objects 
+
 import java.util.Scanner;
 //OOP basic classes and object
 public class Basic {
@@ -20,11 +23,9 @@ public class Basic {
 
         }
         sc.close();
-
-
-
     }
 }
+
 
 class Student{
     //attributes
