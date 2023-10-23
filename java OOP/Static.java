@@ -1,3 +1,6 @@
+//static keyowrd can be apply for variables, methods, blocks & nested classes
+
+
 public class Static {
     public static void main(String[] args){
 
