@@ -1,3 +1,10 @@
 boolean: boolan keyword is used declare Boolean value in java which can hold true or false values. true or false values take 1bit space in memory.
 int: int keyword in used declare a integer value in java. memory space for int 32bits.
+byte: java byte is a keyword which is used to declare a varible with 8-bits in memory space. 8-bits = 1 byte
+char: java char is a keyword which is used to declre a variable with unsigned 16-bit Unicode characters in memory space. 16-bits = 2 byte
+
+
 static: if static keyword is used beofore declreing a varible is known as static varible. static variable cant be local. can create a single copy of static varible and share amog all instances of class. Memory allocation is only happens once when class is loaded.
+class: class keyword is used to declare a class
+this: this keyword is used to refer current object in method/constructor
+void: java void is a keyword which means the method has not return type
