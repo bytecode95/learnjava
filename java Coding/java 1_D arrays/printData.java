@@ -1,6 +1,6 @@
 
 
-public class printData {
+public class PrintData {
     public static void main(String[] args){
         int[] ar = new int[5];
         //every element of ar array is 0
