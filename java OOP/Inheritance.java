@@ -3,8 +3,10 @@
 public class Inheritance {
     public static void main(String[] args){
         Animal A1 = new Animal();
-        Animal D2 = new Animal();
+        System.out.println(A1.name);
+        //Animal D2 = new Animal();
         Dog D1 = new Dog();
+        System.out.println(D1.name);
 
     } 
 }
@@ -20,6 +22,8 @@ class Animal{
 
     //default constructor
     public Animal(){
+        super();
+        System.out.println("This is super class constructor");
 
     }
 
@@ -36,6 +40,10 @@ class Animal{
 class Dog extends Animal{
     String familyName;
     String breed;
+
+    public Dog(){
+        System.out.println("This is sub class constructor");
+    }
 
     public void bark(){
 
