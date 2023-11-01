@@ -2,7 +2,7 @@
 //Dynamic Polymorphism 
 public class PolymorpshismOOP {
     public static void main(String[] args){
-        Animal dog = new Dog();
+        Animal dog = new Dog();  //polymorphic assignment
         dog.makeSound();
 
         Animal cat = new Cat();
