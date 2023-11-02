@@ -1,17 +1,16 @@
-//creating linked list
-//insertting value at the end 
-//inset at start
-
-
-
-
 public class Basic{
    public static void main(String[] args){
-    LinkedList list = new LinkedList();
-    list.insert(5);
-    list.insert(45);
-    list.insert(12);
-    list.show();
+      LinkedList list = new LinkedList();
+      list.insert(23);
+      list.insert(54);
+      list.insert(35);
+      list.insert(40);
+      list.insert(23);
+
+      list.insertAtStart(18);
+      list.insertAt(2, 60);
+
+      list.show();
 
    }
 }
