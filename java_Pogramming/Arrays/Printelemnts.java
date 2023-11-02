@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class Printelemnts {
     public static void main(String[] args){

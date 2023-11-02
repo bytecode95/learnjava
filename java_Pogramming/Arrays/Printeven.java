@@ -1,4 +1,3 @@
-package Arrays;
 
 public class Printeven {
     public static void main(String[] args){

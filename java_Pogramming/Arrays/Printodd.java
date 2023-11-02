@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class Printodd {
     public static void main(String[] args){
