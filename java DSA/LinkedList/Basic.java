@@ -1,5 +1,7 @@
 //creating linked list
 //insertting value at the end 
+//inset at start
+
 
 
 
