@@ -2,7 +2,7 @@
 
 public class FindPrime {
     public static void main(String[] args){
-        System.out.print(2);
+        
         for(int i=2; i<50; i++){
             if(isPrime(i)){
                 System.out.print(i+" ");
@@ -14,8 +14,8 @@ public class FindPrime {
         if(num<2){
             return false;
         }else{
-            for(int i=2; i<Math.sqrt(num); i++){
-                if(num%2==0){
+            for(int i=2; i<(num); i++){
+                if(num%i==0){
                     return false;
                 }
             }
@@ -23,6 +23,7 @@ public class FindPrime {
         }
         return true;
     }
+
 
 
 
