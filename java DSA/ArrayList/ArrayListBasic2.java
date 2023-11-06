@@ -27,6 +27,17 @@ public class ArrayListBasic2 {
         Collections.sort(al);
         System.out.println(al);  //[A, B, C, X, Y, Z]
 
+        //ReverseSorting
+        Collections.sort(al, Collections.reverseOrder());  //[Z, Y, X, C, B, A]
+
+        //Shuffling --Collections shuffle()
+        //random order
+        Collections.shuffle(al);
+        System.out.println(al);  //[C, Y, A, Z, B, X]
+
+        
+
+
 
     }
 }
