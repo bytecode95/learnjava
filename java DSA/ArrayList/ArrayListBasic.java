@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListBasic {
@@ -50,7 +51,27 @@ public class ArrayListBasic {
         System.out.println(al.contains("C#")); //false
 
         System.out.println(al.isEmpty());  //false
-        
+
+        //read elements in arraylist
+        // 1. for loop 
+        System.out.println("Reading element using for loop");
+        for(int i=0; i<al.size(); i++){
+            System.out.println(al.get(i));
+        }
+
+        //2. For each
+        System.out.println("Reading element using foreach loop");
+        for(Object e:al){
+            System.out.println(e);
+        }
+
+        //3. Interator()
+        System.out.println("Reading element using iterator()");
+        Iterator it = al.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
+
 
     }
 }
