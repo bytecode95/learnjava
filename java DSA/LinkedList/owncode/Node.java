@@ -1,4 +1,4 @@
-
+package owncode;
 public class Node
 {
     int data;

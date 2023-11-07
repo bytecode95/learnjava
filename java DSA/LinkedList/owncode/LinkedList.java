@@ -1,3 +1,4 @@
+package owncode;
 public class LinkedList
 {
     Node head;
