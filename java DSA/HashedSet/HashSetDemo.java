@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class HashedSet {
+public class HashSetDemo {
     public static void main(String[] args){
         HashSet hs = new HashSet(); //default capacity is 16 & Load factor: 0.75
         
