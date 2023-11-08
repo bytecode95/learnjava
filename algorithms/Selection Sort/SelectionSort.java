@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 public class SelectionSort {
     public static void main(String[] args){
-        int[] nums = {-5,-2, 4, 3, 6, 9, 5};
-        selection(nums);
-        System.out.println(Arrays.toString(nums));
+        int[] arr = {-5,-2, 4, 3, 6, 9, 5};
+        selection(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
     public static void selection(int[] arr){
@@ -20,14 +20,14 @@ public class SelectionSort {
         int temp = arr[first];
         arr[first] = arr[second];
         arr[second] = temp;
-
+ 
     }
 
-    private static int getMaxindex(int[] arr, int start, int last){
+    private static int getMaxindex(int[] arr, int start, int end){
         int max =start;
-        for(int i=start; i<= last; i++){
+        for(int i=start; i<= end; i++){
             if(arr[max]<arr[i]){
-                max = arr[i];
+                max = i;
             }
         }
         return max;
