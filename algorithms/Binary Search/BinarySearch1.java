@@ -12,6 +12,10 @@ public class BinarySearch1 {
         int start = 0;
         int end = arr.length;
         int middle;
+       //if target is smaller than arr[0](smallest number)
+       if(target<arr[0]){
+            return -1;
+       }
         while(start<=end){
             middle = start + (end-start)/2;
             if(target==arr[middle]){
